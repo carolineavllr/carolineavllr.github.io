@@ -1,0 +1,38 @@
+header {
+  gap: 10px;
+  margin: auto;
+  display: flex;
+  padding: 20px;
+  max-width: 1200px;
+  align-items: center;
+  justify-content: space-between;
+
+  .name {
+    flex: 1;
+    font-size: 24px;
+  }
+
+  .menu {
+    flex: 2;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    li {
+      font-size: 14px;
+      list-style: none;
+    }
+  }
+
+  .social {
+    flex: 1;
+    gap: 20px;
+    display: flex;
+    justify-content: flex-end;
+
+    svg {
+      width: 20px;
+      height: 20px;
+      fill: $white;
+    }
+  }
+}
